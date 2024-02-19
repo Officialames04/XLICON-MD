@@ -4,7 +4,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 //═══════[Required Variables]════════\\
 global.owner = process.env.OWNER_NUMBER || "255699457822"  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
-global.mongodb = process.env.MONGODB_URI || "mongodb+srv://Jamesedward:<password>@cluster0.yk2wuga.mongodb.net/?retryWrites=true&w=majority"
+global.mongodb = process.env.MONGODB_URI || ""
 global.port= process.env.PORT || 5000
 global.email = 'jamesedwardm294@gmail.com'
 global.github = 'https://github.com/officialames04/XLICON-MD'
@@ -16,12 +16,12 @@ global.website = 'https://github.com/salmanytofficial/XLICON-MD' //wa.me/+910000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/3c341828d86ee7a89c73f.jpg'
 module.exports = {
   sessionName:  process.env.SESSION_ID ||  " ",  //PUT Session Id Here, 
-  author:  process.env.PACK_AUTHER ||  "MADE BY HAMES"
-  packname:  process.env.PACK_NAME || '"MADE BY HAMES"
+  author:  process.env.PACK_AUTHER ||  "PH♧NT♤MCR♧$H"
+  packname:  process.env.PACK_NAME || '"PH♧NT♤MCR♧$H"
    
   botname:   process.env.BOT_NAME === undefined ? "Xlicon-Md" : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'salmanytofficial' : process.env.OWNER_NAME,  
-  auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
+  ownername: process.env.OWNER_NAME === undefined ? 'PH♧NT♤MCR♧$H' : process.env.OWNER_NAME,  
+  auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? true : process.env.AUTO_READ_STATUS,
   autoreaction:  process.env.AUTO_REACTION  === undefined ? true: process.env.AUTO_REACTION ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nbwoed' : process.env.ANTI_BAD_WORD,
   alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? true : process.env.ALWAYS_ONLINE,
